@@ -19,7 +19,7 @@ for loopConstant in range {
 
 💬 loopConstant는 반복 상수이며, for-in 에서 임시로 사용하는 상수이다.
 ```
-<br>
+여기에 글씨 추가해야하나..?
 
 ```Swift
 📂 예제 - 1 ~ 10 까지 출력하기
