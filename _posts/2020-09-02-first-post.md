@@ -1,5 +1,5 @@
 ---
-title: "Swift - For-in 2"
+title: "Swift - For-in 3"
 date: 2020-10-07 03:51:00 -0000
 categories: swift 문법 반복문
 ---
@@ -24,7 +24,7 @@ for loopConstant in range {
 
 - 예제 
 
-```Swift
+```swift
 📂 예제 - 1 ~ 10 까지 출력하기
 
 for i in 1...10 {
