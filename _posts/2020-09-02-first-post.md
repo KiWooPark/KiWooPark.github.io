@@ -1,5 +1,5 @@
 ---
-title: "Swift - For-in"
+title: "Swift - For-in 3"
 date: 2020-10-07 03:51:00 -0000
 categories: swift 문법 반복문
 ---
@@ -14,31 +14,24 @@ categories: swift 문법 반복문
 ```swift
 ✏️ 기본 문법
 for loopConstant in range {
-      statements
+  	statements
 }
 
 💬 loopConstant는 반복 상수이며, for-in 에서 임시로 사용하는 상수이다.
 ```
 
 
-```Swift
+
+- 예제 
+
+```swift
 📂 예제 - 1 ~ 10 까지 출력하기
 
 for i in 1...10 {
   print(i)
 }
+
+💬 1 ~ 10 까지 i에 대입하며 숫자를 1씩 증가 시킨다.
 ```
 
 
- 
-​```python
-def print_hi(name):
-  print("hello", name)
-print_hi('Tom')
-​```
- 
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
- 
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
