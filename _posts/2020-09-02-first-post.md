@@ -1,13 +1,34 @@
 ---
-title: "블로그 포스팅 테스트01"
-date: 2020-09-02 18:00:00 -0400
-categories: jekyll update
+title: "Swift - For-in"
+date: 2020-10-07 03:51:00 -0000
+categories: swift 문법 반복문
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
- 
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
- 
-Jekyll also offers powerful support for code snippets:
+> 📝 iOS Swift 정리 - For-in
+
+---
+
+# For-in (for문)
+
+- 일정 횟수만큼 특정 구문을 반복하기 위해 사용하는 문법이다.
+
+```swift
+✏️ 기본 문법
+for loopConstant in range {
+      statements
+}
+
+💬 loopConstant는 반복 상수이며, for-in 에서 임시로 사용하는 상수이다.
+```
+
+```Swift
+📂 예제 - 1 ~ 10 까지 출력하기
+
+for i in 1...10 {
+  print(i)
+}
+```
+
+
  
 ​```python
 def print_hi(name):
