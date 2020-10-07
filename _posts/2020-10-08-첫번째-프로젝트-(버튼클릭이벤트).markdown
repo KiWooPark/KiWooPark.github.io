@@ -1,0 +1,84 @@
+---
+layout: post
+title: 첫번째 프로젝트 (버튼클릭 이벤트)
+date: 2020-10-08 00:00:00 +0300
+description: You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. # Add post description (optional)
+img: swift.jpg # Add image post (optional)
+tags: [Productivity, Software] # add tag
+---
+
+> 📝 iOS Project #1
+
+# 첫번째 프로젝트 (버튼클릭 이벤트)
+
+---
+
+1. Scene에 새로운 컨트롤을 추가 하여 UI를 구성 할 수 있는데 라이브러리를 통해 새로운 컨트롤을 추가 할 수 있으며 라이브러리 단축키는 `커멘드 + 시프트 + L` 이다. 라이브러리에서 Label 검색 후 드래그 앤 드롭으로 Label을 추가해 준다.
+
+   <img src="{{site.baseurl}}/assets/image/Project-1/11.mov" alt="01" style="zoom:50%;" />
+
+   
+
+2. Label을 추가해 준 다음 오른쪽 아래에 Align아이콘을 클릭 한 뒤 사진과 같이 Horizontally, Vertically를 체크해주고 Add 2 Constraints를 누른다. 이 과정은 오토레이아웃 제약조건을 적용한 것인데 Label이 항상 앱 중앙에 위치하도록 적용해주었다.
+
+   <img src="{{site.baseurl}}/assets/image/Project-1/12.mov" alt="01" style="zoom:50%;" />
+
+   
+
+3. 오른쪽 속성 편집 창에서 텍스트 크기 30, Text Label에서 Hello, World로 바꿔주면 Label 안에 Text가 Hello, World로 변경된것을 볼 수 있다.<img src="/Users/pkw/Desktop/KWiOS/iOS 정리/Project/13.mov" alt="01" style="zoom:50%;" />
+
+   
+
+4. 다음으로 버튼을 추가해준다.
+
+   <img src="/Users/pkw/Desktop/KWiOS/iOS 정리/Project/14.mov" alt="01" style="zoom:50%;" />
+
+
+
+5. 조절점을 조절하여 아래와 같이 기본 여백을 맞춰준다.
+
+   <img src="/Users/pkw/Desktop/KWiOS/iOS 정리/Project/15.mov" alt="01" style="zoom:50%;" />
+
+
+
+6. 버튼이 선택되어 있는 오른쪽 하단 3번째 위치와 크기제약을 추가할 수 있는 팝업이 나오며 오른쪽 왼쪽 아래, 높이 60으로 설정 후 Add 버튼을 누른다.
+
+   <img src="/Users/pkw/Desktop/KWiOS/iOS 정리/Project/16.mov" alt="01" style="zoom:50%;" />
+
+
+
+7. 오른쪽 속성 편집 창에서 Title button을 update label로 변경해준다.
+
+   <img src="/Users/pkw/Desktop/KWiOS/iOS 정리/Project/17.mov" alt="01" style="zoom:50%;" />
+
+
+
+8. 프로젝트 네비게이터에서 메인스토리보드를 클릭하고 신을 왼쪽으로 살짝 옮겨준 후 옵션키를 누른 상태로 뷰 컨트롤러를 클릭해주면 아래와 같이 뷰컨트롤러 편집창이 열린다. <img src="/Users/pkw/Desktop/KWiOS/iOS 정리/Project/18.mov" alt="01" style="zoom:50%;" />
+
+
+
+9. 레이블은 아울렛으로 연결하고, 버튼은 액션으로 연결해준다. 레이블 name은 label로 선언해주고, 버튼 name은 update Label로 선언해준다. 
+
+   <img src="/Users/pkw/Desktop/KWiOS/iOS 정리/Project/19.mov" alt="01" style="zoom:50%;" />
+
+
+
+10. 아래와 같이 updateLabel 메소드에 label.text = "hello, iOS" 를 추가해준다.
+
+    <img src="/Users/pkw/Desktop/KWiOS/iOS 정리/Project/20.png" alt="01" style="zoom:100%;" />
+
+
+
+11. 위 과정을 다 진행 하면 아래와 같이 버튼 클릭시 레이블의 텍스트가 바뀌는 모습을 볼 수 있다.
+
+    <img src="/Users/pkw/Desktop/KWiOS/iOS 정리/Project/21.mov" alt="01" style="zoom:50%;" />
+
+
+
+
+
+
+
+
+
+
