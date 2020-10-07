@@ -13,7 +13,8 @@ tags: [Productivity, Software] # add tag
 
 ---
 
-1. Scene에 새로운 컨트롤을 추가 하여 UI를 구성 할 수 있는데 라이브러리를 통해 새로운 컨트롤을 추가 할 수 있으며 라이브러리 단축키는 `커멘드 + 시프트 + L` 이다. 라이브러리에서 Label 검색 후 드래그 앤 드롭으로 Label을 추가해 준다.
+1. Scene에 새로운 컨트롤을 추가 하여 UI를 구성 할 수 있는데 라이브러리를 통해 새로운 컨트롤을 추가 할 수 있으며 
+    라이브러리 단축키는 `커멘드 + 시프트 + L` 이다. 라이브러리에서 Label 검색 후 드래그 앤 드롭으로 Label을 추가해 준다.
 
 ![I and My friends]({{site.baseurl}}/assets/img/project-1/11.mov){: width="50%" height="50%"}
 
